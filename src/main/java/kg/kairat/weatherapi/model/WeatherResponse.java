@@ -2,6 +2,6 @@ package kg.kairat.weatherapi.model;
 
 import java.util.List;
 
-public record WeatherResponce(
+public record WeatherResponse(
         List<CityWeather> results
 ){}
